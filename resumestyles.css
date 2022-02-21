@@ -1,0 +1,85 @@
+.grid-container {
+    border: 5px solid;
+    font-size: 75%;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 1fr 500px 1fr;
+    border-color: grey;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+}
+h1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: center;
+}
+.pro {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: center;
+}
+.profile {
+     grid-column: 1/2;
+     grid-row: 1/2;
+     text-align: center;
+     image-rendering: auto;
+     border-image: space;
+     border-image-width: 10px;
+     image-rendering: 30px;
+     color: black;
+     background-color: lightgray;
+}
+.footer{
+    grid-column: 2/2;
+     grid-row: 1/2;
+     text-align: center;
+}
+h3 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align-last: center;
+}
+.contact {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgray;
+    font-size: 120%;
+}
+.contact2 {
+    grid-row: 3/3;
+    grid-column: 1/2;
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgray;
+}
+h2 {
+    font-size: 120%;
+    text-align: center;
+}
+h4 {
+    font-size: 110%;
+    text-align: center;
+}
+ul {
+    font-size: 100%;
+
+}
+.edu {
+    grid-row: 3/3;
+    grid-column: 2/3;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
